@@ -1,0 +1,70 @@
+@charset "utf-8";
+body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, code, form, fieldset, legend, button, textarea, table, tbody, tfoot, thead, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video { margin: 0; padding: 0; outline:nonebackground:transparent;
+}
+article, aside, dialog, figure, footer, header, hgroup, nav, section { display: block; }
+body, button, input, select, textarea { font: 12px/1.5 arial, \5b8b\4f53, sans-serif; }
+h1, h2, h3, h4, h5, h6, button, input, select, textarea { font-size: 100%; outline: none }
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp { font-family: courier new, courier, monospace; }
+small { font-size: 12px; }
+ul, ol, li { list-style: none; }
+img { border: none; }
+a { text-decoration: none; outline: thin none; }
+a:hover { text-decoration: underline; }
+table { border-collapse: collapse; border-spacing: 0; }
+.clear { clear: both; }
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+html { -webkit-text-size-adjust: none; }
+body { font: 12px/1.5 \5FAE\8F6F\96C5\9ED1, tahoma, arial, \5b8b\4f53, sans-serif; }
+
+
+
+
+
+.grid-960 .wapper { width: 100%; min-width:960px;height: auto; margin: 0 auto; background: url(../images/bg-body-960.jpg) no-repeat center top; }
+.grid-1180 .wapper { width: 100%; min-width:1180px;height: auto; margin: 0 auto; background: url(../images/bg-body-1180.jpg) no-repeat center top; }
+.grid-1410 .wapper { width: 100%; min-width:1410px;height: auto; margin: 0 auto; background: url(../images/bg-body-1410.jpg) no-repeat center top; }
+
+/*热门活动*/
+.grid-960 .section { width: 960px;  margin: 0 auto;background-color:#eaf2ff; }
+.grid-1180 .section { width: 1180px;  margin: 0 auto;background-color:#eaf2ff;}
+.grid-1410 .section { width: 1410px;  margin: 0 auto;background-color:#eaf2ff;}
+
+.title{padding:0 102px;height:70px;line-height:70px;font-size:24px;font-weight:normal;color:#fff;text-shadow: 0 3px #df2828, 3px 0 #df2828;background:#cc2223 url(../images/bg-title.jpg) no-repeat left top;}
+
+.viewall:hover{text-decoration:none;}
+.viewall{font-size:18px;;color:#fff;text-shadow: 0 3px #df2828, 3px 0 #df2828;float:right;}
+
+.grid-1410 .title {padding:0 116px;background-image:url(../images/bg-title-1410.jpg);}
+
+.grid-960 .contentwrap{width:800px;margin:0 auto;}
+.grid-1180 .contentwrap{width:980px;margin:0 auto;}
+.grid-1410 .contentwrap{width:1180px;margin:0 auto;}
+
+.grid-960 .activity{width:826px;height:152px;overflow:hidden;margin:0 auto;position:relative;}
+.grid-1180 .activity{width:1020px;height:192px;overflow:hidden;margin:0 auto;position:relative;}
+.grid-1410 .activity{width:1230px;height:232px;overflow:hidden;margin:0 auto;position:relative;}
+
+.grid-960 .activity ul{height:152px;overflow:hidden;}
+.grid-1180 .activity ul{height:192px;overflow:hidden;}
+.grid-1410 .activity ul{height:232px;overflow:hidden;}
+
+.activity li img{display:block;width:100%;height:100%;}
+.activity li{display:block;float:left;}
+
+.grid-960 .activity li{width:250px;height:125px;overflow:hidden;margin:12px;}
+.grid-1180 .activity li{width:300px;height:150px;overflow:hidden;margin:20px;}
+.grid-1410 .activity li{width:360px;height:180px;overflow:hidden;margin:25px;}
+/*js切换*/
+.pg_left,.pg_right {position: absolute;z-index: 999;width: 35px;height: 50px;overflow: hidden;}
+.pg_right {background: transparent url(../images/pg_right.png) no-repeat scroll 5px 7px;}
+.pg_right:hover {background: transparent url(../images/hover.png) no-repeat scroll 0 0;}
+.grid-960 .pg_right{top:75px;right:16px;margin-top:-25px;}
+.grid-1180 .pg_right{top:95px;right:20px;margin-top:-25px;}
+.grid-1410 .pg_right{top:115px;right:25px;margin-top:-25px;}
+
+.pg_left {background: transparent url(../images/pg_left.png) no-repeat scroll 5px 7px;}
+.pg_left:hover {background: transparent url(../images/hover.png) no-repeat scroll right 0;}
+.grid-960 .pg_left{top:75px;left:13px;margin-top:-25px;}
+.grid-1180 .pg_left{top:95px;left:20px;margin-top:-25px;}
+.grid-1410 .pg_left{top:115px;left:25px;margin-top:-25px;}
