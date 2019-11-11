@@ -447,3 +447,22 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+#menu-outer {
+	height: 14px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
